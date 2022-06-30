@@ -350,3 +350,6 @@ htop: 프로세스 목록 및 자원 사용량을 시각적으로 표시합니�
 root@w4grid1hz8sjkn1n2c8srkwg4-f7b468bc8-mwmlb:~/data# tail -n 891 titanic.csv | cut -d ',' -f 6 | sort | uniq -c
     314 female
     577 male
+    
+root@w4grid1hz8sjkn1n2c8srkwg4-f7b468bc8-mwmlb:~/data# cat titanic.csv | grep ' Brown' | wc -l
+1    
