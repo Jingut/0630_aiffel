@@ -353,3 +353,5 @@ root@w4grid1hz8sjkn1n2c8srkwg4-f7b468bc8-mwmlb:~/data# tail -n 891 titanic.csv |
     
 root@w4grid1hz8sjkn1n2c8srkwg4-f7b468bc8-mwmlb:~/data# cat titanic.csv | grep ' Brown' | wc -l
 1    
+
+| (데이터 파이프라인이란) : 데이터가 입출력을 바로 입출력장치에 가게 하지 않고 다음 명령어로 전달하게 하기 위한 기능! 
